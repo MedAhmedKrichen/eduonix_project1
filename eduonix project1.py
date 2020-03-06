@@ -1,7 +1,9 @@
+import random
 
-target=10
+
 games=int(input("give the number of games you wanna to play"))
 for i in range(games):
+    target = random.randint(1, 25)
     k=0
     s = int(input("give a random  number between 1-25"))
 
